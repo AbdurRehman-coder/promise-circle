@@ -159,7 +159,7 @@ class _UIWelcomeScreenState extends State<UIWelcomeScreen> {
                   ),
                   SizedBox(height: 32.h),
                   Text(
-                    "This quiz will help you identify your Promise Profile™ out of 8 types. \n\nIt’s the first step in your journey\n to Stop Breaking Promises.",
+                    "This quiz will help you identify your Promise Profile™ out of 8 types. \n\nIt’s the first step in your journey\n to Promise Circles.",
                     textAlign: TextAlign.center,
                     style: AppTextStyles.bodyTextStyleBogart.copyWith(
                       fontWeight: FontWeight.w500,

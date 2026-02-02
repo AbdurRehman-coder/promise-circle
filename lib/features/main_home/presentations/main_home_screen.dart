@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'package:facebook_app_events/facebook_app_events.dart';
+// import 'package:facebook_app_events/facebook_app_events.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -29,7 +29,7 @@ class HomeDashboardPage extends ConsumerStatefulWidget {
 
 class _HomeDashboardPageState extends ConsumerState<HomeDashboardPage> {
   bool _hasLoggedEvent = false;
-  final _facebookAppEvents = FacebookAppEvents();
+  // final _facebookAppEvents = FacebookAppEvents();
 
   @override
   void initState() {
@@ -55,13 +55,13 @@ class _HomeDashboardPageState extends ConsumerState<HomeDashboardPage> {
     debugPrint('🔵 Facebook App Events: Logging home_screen_view event...');
 
     try {
-      await _facebookAppEvents.logEvent(
-        name: 'home_screen_view',
-        parameters: {
-          'screen_name': 'HomeDashboard',
-          'timestamp': DateTime.now().toIso8601String(),
-        },
-      );
+      // await _facebookAppEvents.logEvent(
+      //   name: 'home_screen_view',
+      //   parameters: {
+      //     'screen_name': 'HomeDashboard',
+      //     'timestamp': DateTime.now().toIso8601String(),
+      //   },
+      // );
       log('✅ Facebook App Events: Home screen view event logged successfully');
       debugPrint(
         '✅ Facebook App Events: Home screen view event logged successfully',

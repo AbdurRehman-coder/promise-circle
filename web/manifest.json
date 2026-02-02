@@ -1,6 +1,6 @@
 {
-    "name": "sbp_app",
-    "short_name": "sbp_app",
+    "name": "Promise Circles",
+    "short_name": "Promise Circles",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

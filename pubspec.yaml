@@ -1,5 +1,5 @@
 name: sbp_app
-description: "A new Flutter project."
+description: "The Promise Circles app."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -72,8 +72,8 @@ dependencies:
   timezone: ^0.10.1
   # firebase_core: ^4.3.0
   # firebase_messaging: ^16.1.0
-  facebook_app_events: ^0.24.0
-  app_tracking_transparency: ^2.0.6
+  # facebook_app_events: ^0.24.0
+  # app_tracking_transparency: ^2.0.6
   material_symbols_icons: ^4.2892.0
   auto_size_text: ^3.0.0
 

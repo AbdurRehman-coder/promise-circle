@@ -112,7 +112,7 @@ class _FirstLoginScreenState extends ConsumerState<FirstLoginScreen> {
                             text: 'You’ve taken the most important step to ',
                           ),
                           const TextSpan(
-                            text: 'Stop Breaking Promises.',
+                            text: 'Promise Circles.',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ],

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.sbp" "\0"
-            VALUE "FileDescription", "sbp_app" "\0"
+            VALUE "FileDescription", "Promise Circles" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sbp_app" "\0"
+            VALUE "InternalName", "PromiseCircles" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.sbp. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sbp_app.exe" "\0"
-            VALUE "ProductName", "sbp_app" "\0"
+            VALUE "OriginalFilename", "PromiseCircles.exe" "\0"
+            VALUE "ProductName", "Promise Circles" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

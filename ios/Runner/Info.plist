@@ -32,14 +32,14 @@
 				<string>com.googleusercontent.apps.44458213022-hofmr50od127tq6pjhdra5eb1hn7ljrl</string>
 			</array>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb1231093182230937</string>
 			</array>
-		</dict>
+		</dict> -->
 	</array>
-	<key>FacebookAppID</key>
+	<!-- <key>FacebookAppID</key>
 	<string>1231093182230937</string>
 	<key>FacebookClientToken</key>
 	<string>0f2510866c110ae808527478225be45f</string>
@@ -48,7 +48,7 @@
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<true/>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
-	<true/>
+	<true/> -->
 
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>

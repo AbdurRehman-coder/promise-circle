@@ -144,7 +144,7 @@ class _InviteCodeScreenState extends State<InviteCodeScreen> {
                               //   MaterialPageRoute(
                               //     fullscreenDialog: true,
                               //     builder: (context) => LegalWebViewPage(
-                              //       title: "Stop Breaking Promises",
+                              //       title: "Promise Circles",
                               //       url: 'https://stopbreakingpromises.com/',
                               //     ),
                               //   ),

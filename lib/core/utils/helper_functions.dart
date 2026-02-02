@@ -39,7 +39,7 @@ class HelperFunctions {
         (appSetting?.profileShareText.trim().isNotEmpty ?? false)
         ? appSetting!.profileShareText
         : "You're three kept Promises away from the life you want. "
-              "Download Stop Breaking Promises app to Make and Keep One Promise for 2026 on us — for free. "
+              "Download Promise Circles app to Make and Keep One Promise for 2026 on us — for free. "
               "onelink.to/promisesapp";
 
     final Map<String, dynamic> profileShareDescription =
@@ -51,7 +51,7 @@ class HelperFunctions {
     final String profileShareSubjectText =
         (appSetting?.profileShareSubjectText.trim().isNotEmpty ?? false)
         ? appSetting!.profileShareSubjectText
-        : "Check out the StopBreakingPromises App!";
+        : "Check out the Promise Circles App!";
 
     final ScreenshotController screenshotController = ScreenshotController();
 
