@@ -121,10 +121,10 @@ jobs:
           EOF
   
           mkdir -p android/app/keystores
-          echo "${{ secrets.KEYSTORE_FILE_BASE64 }}" | base64 -d > android/app/keystores/upload-keystore.jks
+          echo "${{ secrets.KEYSTORE_FILE_BASE64 }}" | base64 -d > android/app/keystores/upload-promise_circle.jks
   
           cat > android/key.properties << EOF
-          storeFile=app/keystores/upload-keystore.jks
+          storeFile=keystores/promise_circle.jks
           storePassword=${{ secrets.KEYSTORE_PASSWORD }}
           keyAlias=${{ secrets.KEY_ALIAS }}
           keyPassword=${{ secrets.KEY_PASSWORD }}
