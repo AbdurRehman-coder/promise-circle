@@ -284,9 +284,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,9 +380,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,7 +504,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEFINES_MODULE = YES;
@@ -513,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.promisecircles.app;
 				PRODUCT_NAME = "Promise Circles";
 				PROVISIONING_PROFILE_SPECIFIER = PromiseCirclesProfile;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PromiseCirclesProfile;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = psProfile;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -695,7 +703,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEFINES_MODULE = YES;
@@ -712,7 +720,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.promisecircles.app;
 				PRODUCT_NAME = "Promise Circles";
 				PROVISIONING_PROFILE_SPECIFIER = PromiseCirclesProfile;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PromiseCirclesProfile;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = psProfile;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -734,7 +742,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEFINES_MODULE = YES;
@@ -751,7 +759,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.promisecircles.app;
 				PRODUCT_NAME = "Promise Circles";
 				PROVISIONING_PROFILE_SPECIFIER = PromiseCirclesProfile;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PromiseCirclesProfile;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = psProfile;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
