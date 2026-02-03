@@ -47,7 +47,7 @@ android {
         multiDexEnabled = true
         applicationId = "com.promisecircles.app"
         minSdk = flutter.minSdkVersion
-        targetSdk = 33
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
